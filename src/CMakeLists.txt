@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.6)
 project(knxdmxd)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
-find_package(json-c-dev REQUIRED)
+find_package(json_c REQUIRED)
 find_package(eibclient REQUIRED)
 find_package(pthread REQUIRED)
 find_package(uuid REQUIRED)
